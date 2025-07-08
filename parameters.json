@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vulnerabilityAssessments_Default_storageContainerPath": {
+            "value": "https://msjsa.blob.core.windows.net/blob"
+        },
+        "servers_server_msj_name": {
+            "value":"server_msj"
+        },
+        "storageAccounts_msjsa_name": {
+            "value":"msjsa"
+        },
+        "loadBalancers_Server_Lb_name": {
+            "value": "Server_Lb"
+        },
+        "virtualNetworks_TechM_Vnet_name": {
+            "value": "TechM_Vnet"
+        },
+        "metricAlerts_VM1_Cpu_Alerts_name": {
+            "value": "VM1_Cpu_Alerts"
+        },
+        "vaults_Backup_Vault_name": {
+            "value": "Backup_Vault"
+        },
+        "vaults_vault_mcqlgkow_name": {
+            "value": "vault_mcqlgkow"
+        },
+        "virtualMachines_Windows_Server1_name": {
+            "value": "Windows_Server1"
+        },
+        "virtualMachines_Windows_Server2_name": {
+            "value":"Windows_Server2"
+        },
+        "publicIPAddresses_Frontend_Publicip_name": {
+            "value": "Frontend_Publicip"
+        },
+        "networkInterfaces_windows_server1774_name": {
+            "value": "windows_server1774"
+        },
+        "networkInterfaces_windows_server2281_name": {
+            "value": "windows_server2281"
+        },
+        "publicIPAddresses_Windows_Server1_ip_name": {
+            "value": "Windows_Server1_ip"
+        },
+        "publicIPAddresses_Windows_Server2_ip_name": {
+            "value": "Windows_Server2_ip"
+        },
+        "networkSecurityGroups_Windows_Server1_nsg_name": {
+            "value": "Windows_Server1"
+        },
+        "networkSecurityGroups_Windows_Server2_nsg_name": {
+            "value": "Windows_Server2"
+        },
+        "actiongroups_CPU_Alert_externalid": {
+            "value": "CPU_Alert"
+        }
+    }
+}
